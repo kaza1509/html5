@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700&subset=vietnamese" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Roboto, san-serif;
+        }
+        .container {
+            margin: 0px auto;
+            max-width: 1200px;
+        }
+        h1.heading {
+            text-align: center;
+        }
+        img.fruit {
+            width: 260px;
+        }
+        p {
+            font-size: 20px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .table-2 > tr, .table-2 td, .table-2{
+            border-collapse: collapse; 
+            border: 2px dashed black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Câu 1: Sử dụng HTML , kết hợp với thuộc tính style để làm trang web như hình</p>
+        <table cellpadding="15">
+            <tr>
+                <td colspan="2">
+                    <h1 class="heading"><i>Fresh fruits</i></h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>It has long been known that a diet that includes at least a few servings of fresh fruit every day will help keep you healthy, fit and trim</p>
+                </td>
+                <td>
+                    <img src="./fruits.png" alt="" class="fruit">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="2" cellpadding="10">
+            <tr>
+                <td colspan="2" >
+                    <h1 class="heading"><i>Fresh fruits</i></h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p >It has long been known that a diet that includes at least a few servings of fresh fruit every day will help keep you healthy, fit and trim</p>
+                </td>
+                <td>
+                    <img src="./fruits.png" alt="" class="fruit">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <p>Câu 2:  Sử dụng HTML , kết hợp với thuộc tính style để làm trang web như hình</p>
+
+        <table cellpadding="10" class="table-2" bgcolor="#FFFF99">
+            <tr>
+                <td>
+                    <img class="fruit" src="./tao.png" alt="" style="margin: 0 auto; display: block; width: 280px; height: 280px; border: 4px solid black;">
+                </td>
+                <td>
+                    <h2 style="color: #333399; text-align: center;">Apple are good for health</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p style="color: #DD0021;"><b>Under most conditions apple trees will set more fruit than needed for a full crop. Most apple cultivars will retain this heavy set of fruit throughout the growing season resulting in small, poorly colored, low quality fruit. Thinning is removal of a portion of crop before it matures, on the tree to increase the marketability of remaining fruit and to reduce the bienial bearing tendency of the tree.</b></p>
+                </td>
+            </tr>
+        </table>
+
+        <p>Ảnh:</p>
+        <img src="./fruits.png" alt="" style="width: 100%;">
+        <img src="./tao.png" alt="" style="width: 100%;">
+    </div>
+</body>
+</html>
